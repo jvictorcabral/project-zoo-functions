@@ -8,6 +8,6 @@ const getEmployeeByName = (employeeName) => {
   return employees.find(
     (employee) =>
       employee.firstName === employeeName || employee.lastName === employeeName,
-      );
+  );
 };
 module.exports = getEmployeeByName;

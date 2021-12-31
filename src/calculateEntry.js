@@ -15,7 +15,7 @@ function calculateEntry(entrants) {
     return 0;
   }
   return (
-    countEntrants(entrants).child * 20.99 + countEntrants(entrants).adult * 49.99 
+    countEntrants(entrants).child * 20.99 + countEntrants(entrants).adult * 49.99
     + countEntrants(entrants).senior * 24.99
   );
 }

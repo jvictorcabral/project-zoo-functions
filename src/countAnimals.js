@@ -15,9 +15,10 @@ const countAnimals = (animal) => {
   if (animal.sex === undefined) {
     return findAnimals.length;
   }
-  return findAnimals.reduce((acc, specie) =>
-    specie.sex === animal.sex ? acc + 1 : acc,
-  0);
+  return findAnimals.reduce((acc, specie) => {
+    const animalSex = animal.sex;
+    return specie.sex === animalSex ? acc + 1 : acc;
+  }, 0);
 };
 
 console.log(countAnimals);

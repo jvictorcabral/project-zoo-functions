@@ -10,7 +10,7 @@ const countEntrants = (entrants) => {
   return { child, adult, senior };
 };
 
-function calculateEntry(entrants) {
+const calculateEntry = (entrants) => {
   if (!entrants || entrants.length === undefined) {
     return 0;
   }
@@ -18,6 +18,6 @@ function calculateEntry(entrants) {
     countEntrants(entrants).child * 20.99 + countEntrants(entrants).adult * 49.99
     + countEntrants(entrants).senior * 24.99
   );
-}
+};
 
 module.exports = { calculateEntry, countEntrants };

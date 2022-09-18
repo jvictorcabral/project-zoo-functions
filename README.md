@@ -1,4 +1,4 @@
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
+<!-- Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
 
 ## Boas vindas ao repositório do projeto de ES6 e Higher Order Functions!
 
@@ -511,4 +511,4 @@ Link: [Formulário de avaliação de projeto](https://bit.ly/2OfLJPn)
 
 ### Ordem dos requisitos no avaliador automático
 
-O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então, não se assuste se isso acontecer, ok?
+O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então, não se assuste se isso acontecer, ok? -->
